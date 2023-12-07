@@ -2,7 +2,7 @@ use std::fmt::{Display, Formatter};
 use std::str::FromStr;
 
 #[derive(Debug)]
-pub struct Day(u8);
+pub struct Day(pub u8);
 
 impl Day {
     pub fn new(day: u8) -> Option<Self> {

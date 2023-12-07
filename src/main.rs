@@ -1,11 +1,11 @@
 use crate::args::{AppArgs, parse};
 use crate::cli::commands::solve;
 
-mod days;
 mod cli;
+pub mod days;
 
 mod args {
-    use crate::days::Day;
+    use adventofcode_2023::days::Day;
 
     const HELP: &str = "\
 🎄 Advent of Code 2023 CLI
